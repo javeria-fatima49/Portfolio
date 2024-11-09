@@ -129,10 +129,8 @@ export default function Projects() {
             <a href="https://github.com/javeria-fatima49" target="_blank">
               <Image src="/image/github.png" alt="GitHub" width={30} height={30} className="shadow-2xl rounded transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
             </a>
-            <a href="mailto:javeria.fatima49@gmail.com">
-              <Image src="/image/mail.jpg" alt="Mail" width={30} height={30} className="shadow-2xl rounded transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
-            </a>
           </div>
+          <p className="text-center text-white mt-4">fatimajaveria409@gmail.com</p>
         </footer>
       </div>
     </div>

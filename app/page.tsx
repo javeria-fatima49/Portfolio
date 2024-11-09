@@ -21,7 +21,7 @@ export default function Home() {
           <span className="text-4xl lg:text-6xl font-bold">Portfolio</span>
         </div>
         <p className="mt-6 text-gray-300 text-lg lg:text-base">
-        Hi, I&apos;m Javeria  a passionate web developer specializing in Typescript,HTML,CSS,Javascript,Next.js.        </p>
+        Hi, I&apos;m Javeria Fatima a passionate web developer specializing in Typescript,HTML,CSS,Javascript,Next.js.        </p>
         <div className="mt-8 flex space-x-4">
           <button className="bg-white text-black px-6 py-2 font-semibold hover:bg-slate-100 hover:scale-105 animate-pulse"><a href="/projects">Explore Now</a></button>
         </div>

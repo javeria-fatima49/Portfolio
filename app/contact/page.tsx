@@ -9,12 +9,12 @@ export default function Contact() {
         <form action="https://formspree.io/your-email@example.com" method="POST" className="flex flex-col space-y-4">
           <div>
             <label htmlFor="name" className="block mb-1 font-serif">Name:</label>
-            <input type="text" id="name" name="name" required className="w-50 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600" />
+            <input type="text" id="name" name="name" required className="w-50 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600 text-black" />
           </div>
           
           <div>
             <label htmlFor="email" className="block mb-1 font-serif">Email:</label>
-            <input type="email" id="email" name="email" required className="w-50 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600" />
+            <input type="email" id="email" name="email" required className="w-50 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600 text-black" />
           </div>
           
           <div>

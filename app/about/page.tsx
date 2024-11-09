@@ -6,7 +6,7 @@ export default function About() {
             <div className="flex-1 mb-0 md:mb-0">
                 <h1 className="font-bold text-3xl md:text-4xl mb-4 font-serif">About Me</h1>
                 <p className="text-sm md:text-md">
-                    Hello! I&apos;m Javeria, a passionate learner currently in my second year of pre-medical studies.
+                    Hello! I&apos;m Javeria Fatima, a passionate learner currently in my second year of pre-medical studies.
                     While my academic path is in pre-med, my curiosity for technology led me to explore web development.
                     I&apos;ve been building my skills in Next.js, TypeScript, HTML, CSS, and Tailwind CSS, and
                     I love creating interactive and visually engaging applications.
