@@ -106,7 +106,7 @@ export default function Projects() {
      <p className="px-6 text-md md:text-md font-sans">An e-commerce website displaying a men&apos;s clothing collection, developed using Next.js with a focus on
        creating a user-friendly shopping experience.</p>
      <ul> <li>GitHub:<a className="underline text-blue-400" href="https://github.com/javeria-fatima49/Men-clothes-collection.git">Men&apos;'s collection</a> </li>
-  <li>Vercal:<a className="underline text-blue-400" href="https://men-clothes-collection.vercel.app/">Men's collection</a></li></ul></div>
+  <li>Vercal:<a className="underline text-blue-400" href="https://men-clothes-collection.vercel.app/">Men&apos;'s collection</a></li></ul></div>
         <br />
         <footer className="bg-[#222222] p-4 w-full absolute mt-0 mb-0 mr-0 left-0 font-sans">
           <p className="text-center text-white">Follow me for more updates</p>
