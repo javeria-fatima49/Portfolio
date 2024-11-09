@@ -63,50 +63,62 @@ export default function Projects() {
             <li>GitHub:<a className="underline text-blue-400" href="https://github.com/javeria-fatima49/milestone-4.git">Milestone 3</a></li>
             <li>Vercel:<a className="underline text-blue-400" href="https://milestone-4-orpin.vercel.app/">Milestone 3</a></li>
           </ul>
-          
-        </div> <h3 className="p-6 text-2xl font-semibold md:text-4xl mb-0 font-serif">Calculator</h3>
-  <div className="flex-1 w-96 md:ml-8 bg-[#2d2d2d] transform transition duration-300 hover:scale-105 animate-fadeIn">
-                 <Image
-                     src="/image/calculator.png"
-                     alt="Profile"
-                     layout="responsive"
-                     width={200}
-                     height={300}
-                     className="object-cover rounded-lg"
-                 />
+        </div> 
+
+        <h3 className="p-6 text-2xl font-semibold md:text-4xl mb-0 font-serif">Calculator</h3>
+        <div className="flex-1 w-96 md:ml-8 bg-[#2d2d2d] transform transition duration-300 hover:scale-105 animate-fadeIn">
+          <Image
+            src="/image/calculator.png"
+            alt="Profile"
+            layout="responsive"
+            width={200}
+            height={300}
+            className="object-cover rounded-lg"
+          />
           <p className="px-6 text-md md:text-md font-sans">A responsive calculator app built with HTML and CSS.
-     It demonstrates my skills in creating clean, interactive user interfaces with dynamic functionality.</p>
-     <ul> <li>GitHub:<a className="underline text-blue-400" href="https://github.com/javeria-fatima49/calculator-.git ">Calculator</a> </li>
-     <li>Vercal:<a className="underline text-blue-400" href="https://calculator-vert-ten-77.vercel.app/">Calculator</a></li></ul></div>  
-     <h3 className="p-6 text-2xl font-semibold md:text-4xl mb-0 font-serif">Portfolio</h3>
-     <div className="flex-1 w-96 md:ml-8 bg-[#2d2d2d] transform transition duration-300 hover:scale-105 animate-fadeIn">
-                 <Image
-                     src="/image/portfolio.png"
-                     alt="Profile"
-                     layout="responsive"
-                     width={200}
-                    height={300}
-                     className="object-cover rounded-lg"
-                 />
-           
-    <p className="px-6 text-md md:text-md font-sans">A personal portfolio built with HTML/CSS showcasing my web development skills, including responsive design and
-       modern user interfaces</p>
-     <ul> <li>GitHub:<a className="underline text-blue-400" href="https://github.com/javeria-fatima49/javeria-projects-portfolio.git">Portfolio</a> </li>
-<li>Vercal:<a className="underline text-blue-400" href="https://javeria-projects-portfolio.vercel.app/">Portfolio</a></li></ul> </div>     
-<h3 className="p-6 text-2xl font-semibold md:text-4xl mb-0 font-serif">Men clothes collection</h3>
-     <div className="flex-1 w-96 md:ml-8 bg-[#2d2d2d] transform transition duration-300 hover:scale-105">
-                 <Image
-                     src="/image/men.png"
-                     alt="Profile"
-                     layout="responsive"
-                     width={200}
-                     height={300}
-                     className="object-cover rounded-lg"
-                 />
-     <p className="px-6 text-md md:text-md font-sans">An e-commerce website displaying a men&apos;s clothing collection, developed using Next.js with a focus on
-       creating a user-friendly shopping experience.</p>
-     <ul> <li>GitHub:<a className="underline text-blue-400" href="https://github.com/javeria-fatima49/Men-clothes-collection.git">Men&apos;'s collection</a> </li>
-  <li>Vercal:<a className="underline text-blue-400" href="https://men-clothes-collection.vercel.app/">Men&apos;'s collection</a></li></ul></div>
+             It demonstrates my skills in creating clean, interactive user interfaces with dynamic functionality.</p>
+          <ul>
+            <li>GitHub:<a className="underline text-blue-400" href="https://github.com/javeria-fatima49/calculator-.git ">Calculator</a></li>
+            <li>Vercel:<a className="underline text-blue-400" href="https://calculator-vert-ten-77.vercel.app/">Calculator</a></li>
+          </ul>
+        </div>  
+
+        <h3 className="p-6 text-2xl font-semibold md:text-4xl mb-0 font-serif">Portfolio</h3>
+        <div className="flex-1 w-96 md:ml-8 bg-[#2d2d2d] transform transition duration-300 hover:scale-105 animate-fadeIn">
+          <Image
+            src="/image/portfolio.png"
+            alt="Profile"
+            layout="responsive"
+            width={200}
+            height={300}
+            className="object-cover rounded-lg"
+          />
+          <p className="px-6 text-md md:text-md font-sans">A personal portfolio built with HTML/CSS showcasing my web development skills, including responsive design and
+             modern user interfaces.</p>
+          <ul>
+            <li>GitHub:<a className="underline text-blue-400" href="https://github.com/javeria-fatima49/javeria-projects-portfolio.git">Portfolio</a></li>
+            <li>Vercel:<a className="underline text-blue-400" href="https://javeria-projects-portfolio.vercel.app/">Portfolio</a></li>
+          </ul>
+        </div>     
+
+        <h3 className="p-6 text-2xl font-semibold md:text-4xl mb-0 font-serif">Men&apos;s clothes collection</h3>
+        <div className="flex-1 w-96 md:ml-8 bg-[#2d2d2d] transform transition duration-300 hover:scale-105">
+          <Image
+            src="/image/men.png"
+            alt="Profile"
+            layout="responsive"
+            width={200}
+            height={300}
+            className="object-cover rounded-lg"
+          />
+          <p className="px-6 text-md md:text-md font-sans">An e-commerce website displaying a men&apos;s clothing collection, developed using Next.js with a focus on
+             creating a user-friendly shopping experience.</p>
+          <ul>
+            <li>GitHub:<a className="underline text-blue-400" href="https://github.com/javeria-fatima49/Men-clothes-collection.git">Men&apos;s collection</a></li>
+            <li>Vercel:<a className="underline text-blue-400" href="https://men-clothes-collection.vercel.app/">Men&apos;s collection</a></li>
+          </ul>
+        </div>
+
         <br />
         <footer className="bg-[#222222] p-4 w-full absolute mt-0 mb-0 mr-0 left-0 font-sans">
           <p className="text-center text-white">Follow me for more updates</p>
@@ -117,11 +129,12 @@ export default function Projects() {
             <a href="https://github.com/javeria-fatima49" target="_blank">
               <Image src="/image/github.png" alt="GitHub" width={30} height={30} className="shadow-2xl rounded transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
             </a>
+            <a href="mailto:javeria.fatima49@gmail.com">
+              <Image src="/image/mail.jpg" alt="Mail" width={30} height={30} className="shadow-2xl rounded transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
+            </a>
           </div>
-          <p className="text-center text-white mt-4">fatimajaveria409@gmail.com</p>
         </footer>
       </div>
     </div>
   );
 }
-
