@@ -2,7 +2,7 @@ import Image from "next/image"
 export default function Contact() {
     return (
       
-        <div className="bg-gradient-to-br from-gray-600 via-black to-gray-600 flex text-center p-8 h-screen ">
+        <div className="bg-gradient-to-br from-gray-600 via-black to-gray-600 text-white flex text-center p-8 h-screen ">
         <section id="contact" className="flex-grow animate-slideBottom">
         <h2 className=" md:text-3xl font-bold mb-4 font-serif">Contact Me</h2>
         <p className="mb-6 ">If you have any questions or would like to get in touch, please fill out the form below:</p>

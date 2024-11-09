@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
     return (
-        <div className="bg-gradient-to-br from-gray-600 via-black to-gray-600  flex flex-col md:flex-row p-10 md:p-40 justify-between items-center min-h-screen animate-slideTop">
+        <div className="bg-gradient-to-br from-gray-600 via-black to-gray-600  text-white flex flex-col md:flex-row p-10 md:p-40 justify-between items-center min-h-screen animate-slideTop">
             <div className="flex-1 mb-0 md:mb-0">
                 <h1 className="font-bold text-3xl md:text-4xl mb-4 font-serif">About Me</h1>
                 <p className="text-sm md:text-md">

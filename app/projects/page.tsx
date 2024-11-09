@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <div className="bg-gradient-to-br from-gray-700 via-black to-gray-700 text-center px-16 items-center">
+    <div className="bg-gradient-to-br from-gray-700 via-black to-gray-700 text-center px-16 items-center text-white">
       <div className="animate-slideLeft justify-items-center">
         <h1 className="p-4 text-3xl font-bold md:text-5xl mb-0 text-center font-serif">My Projects</h1>
         <p className="px-6 text-md md:text-md font-sans">
