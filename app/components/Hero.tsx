@@ -27,9 +27,9 @@ export default function Hero(){
         </h1>
       </div>
       <p className="text-gray-300 max-w-lg">
-      I'm a passionate and dedicated IT student currently in my 2nd year, specializing in web development with expertise in 
+      I&apos;m a passionate and dedicated IT student currently in my 2nd year, specializing in web development with expertise in 
       TypeScript, Next.js, and Tailwind CSS. I have experience in building interactive applications, including a resume builder,
-       a to-do app, and an adventure game. I enjoy creating visually appealing and functional web solutions. I'm always eager to
+       a to-do app, and an adventure game. I enjoy creating visually appealing and functional web solutions. I&apos;m always eager to
         learn new technologies and improve my skills. My goal is to contribute effectively to the tech industry and work on 
         innovative projects.
       </p>

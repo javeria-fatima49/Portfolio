@@ -33,6 +33,11 @@ export default function Header() {
                             className="rounded-full"
                         />
                         <span className="font-semibold text-2xl font-serif text-white">
+                            
+                            <span className="text-yellow-500 font-extrabold font-serif text-3xl">j</span>averia
+                        </span>
+                        <span className="font-semibold text-2xl font-serif text-white">
+                            
                             <span className="text-yellow-500 font-extrabold font-serif text-3xl">P</span>ortfolio
                         </span>
                     </div>
