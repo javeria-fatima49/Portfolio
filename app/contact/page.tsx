@@ -1,44 +1,72 @@
-import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Mail, Phone, MapPin, Send } from "lucide-react"
 export default function Contact() {
     return (
-      
-        <div className="bg-gradient-to-br from-gray-600 via-black to-gray-600 text-white flex text-center p-8 h-screen ">
-        <section id="contact" className="flex-grow animate-slideBottom">
-        <h2 className=" md:text-3xl font-bold mb-4 font-serif">Contact Me</h2>
-        <p className="mb-6 ">If you have any questions or would like to get in touch, please fill out the form below:</p>
-        <form action="https://formspree.io/your-email@example.com" method="POST" className="flex flex-col space-y-4">
-          <div>
-            <label htmlFor="name" className="block mb-1 font-serif">Name:</label>
-            <input type="text" id="name" name="name" required className="w-50 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600 text-black" />
+<section id="contact" className="py-20 h-11/12 bg-gray-950">
+        <div className="h-full px-6">
+          <h2 className="text-5xl font-bold mb-12 text-white text-center">
+            Contact <span className="text-yellow-500">Me</span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            <div className="space-y-6">
+              <Card className="bg-gray-900 border-gray-800">
+                <CardHeader>
+                  <div className="flex items-center gap-4">
+                    <Mail className="w-6 h-6 text-yellow-500" />
+                    <div>
+                      <CardTitle className="text-gray-400">Email</CardTitle>
+                      <CardDescription>fatimajaveria409@gmail.com</CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>
+              <Card className="bg-gray-900 border-gray-800">
+                <CardHeader>
+                  <div className="flex items-center gap-4">
+                    <Phone className="w-6 h-6 text-yellow-500" />
+                    <div>
+                      <CardTitle className="text-gray-400">Phone</CardTitle>
+                      <CardDescription>03328999505</CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>
+              <Card className="bg-gray-900 border-gray-800">
+                <CardHeader>
+                  <div className="flex items-center gap-4">
+                    <MapPin className="w-6 h-6 text-yellow-500" />
+                    <div>
+                      <CardTitle className="text-gray-400">Location</CardTitle>
+                      <CardDescription>Karachi, Pakistan</CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>
+            </div>
+            <form className="space-y-4">
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="w-full p-3 rounded-lg bg-gray-900 border border-gray-800 focus:border-yellow-500 focus:outline-none"
+              />
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="w-full p-3 rounded-lg bg-gray-900 border border-gray-800 focus:border-yellow-500 focus:outline-none"
+              />
+              <textarea
+                placeholder="Your Message"
+                rows={6}
+                className="w-full p-3 rounded-lg bg-gray-900 border border-gray-800 focus:border-yellow-500 focus:outline-none"
+              />
+              <Button className="w-full bg-yellow-500 hover:bg-yellow-600">
+                <Send className="w-4 h-4 mr-2" />
+                Send Message
+              </Button>
+            </form>
           </div>
-          
-          <div>
-            <label htmlFor="email" className="block mb-1 font-serif">Email:</label>
-            <input type="email" id="email" name="email" required className="w-50 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600 text-black" />
-          </div>
-          
-          <div>
-            <label htmlFor="message" className="block mb-1 font-serif">Message:</label>
-            <textarea id="message" name="message" rows={4} required className="w-50 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600 text-black" />
-          </div>
-          <div>
-         <button type="submit" id="submit-button" className="font-serif bg-gray-800 text-white py-3 px-12 rounded text-left transition-transform duration-300 hover:bg-gray-900  hover:shadow-xl animate-pulse">
-           Submit
-           </button>
-          </div>
-        </form>
-      </section>
-  <footer className="bg-[#222222] p-4 fixed bottom-0 left-0 right-0 font-sans" >
-        <p className="text-center text-white">Follow me for more updates</p>
-        <div className="flex justify-center space-x-4 mt-4">
-          <a href="https://www.linkedin.com/in/javeria-fatima-5414a330b/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3LSWEFmNRNOjNp2wTF4lYQ%3D%3D" target="_blank">
-            <Image src="/image/linkdin.jpg" alt="LinkedIn" width={30} height={30} className="shadow-2xl rounded transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
-          </a>
-          <a href="https://github.com/javeria-fatima49" target="_blank">
-            <Image src="/image/github.png" alt="GitHub" width={30} height={30} className=" shadow-2xl rounded transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
-          </a>
-          </div>
-        <p className="text-center text-white mt-4">fatimajaveria409@gmail.com</p>
-      </footer>
         </div>
+      </section>
+
 )}

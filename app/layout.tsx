@@ -27,10 +27,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <Header />
         {children}
+        <footer className="py-6 border-t bg-black border-gray-900 text-center text-gray-400 w-full mt-auto">
+          <p>© {new Date().getFullYear()} Javeria Fatima. All rights reserved.</p>
+        </footer>
+
       </body>
     </html>
   );
