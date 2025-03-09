@@ -21,10 +21,10 @@ export default function Service(){
         title: "AI Integration",
         description: "Implementing AI solutions to enhance web applications.",
       },
-      {
-        title: "Mobile Development",
-        description: "Building cross-platform mobile applications.",
-      },
+      // {
+      //   title: "Mobile Development",
+      //   description: "Building cross-platform mobile applications.",
+      // },
       {
         title: "SEO Optimization",
         description: "Optimizing websites for better search engine rankings.",

@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 export default function About() {
@@ -35,8 +34,12 @@ export default function About() {
                 <p className="text-lg font-medium">Open for Work</p>
               </div>
             </div>
-
-            <Button className="bg-yellow-500 hover:bg-yellow-600 w-full sm:w-auto">Download CV</Button>
+            <a
+                href="/jiya-cv.pdf"
+                download
+                className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded w-full sm:w-auto inline-block text-center">
+                Download CV
+              </a>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-2 gap-4">
             {[

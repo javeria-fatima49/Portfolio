@@ -54,9 +54,6 @@ export default function Hero(){
         className="object-cover"
         priority
       />
-      <div className="absolute top-0 w-full h-6 bg-gray-800">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-4 bg-gray-950 rounded-full" />
-      </div>
     </div>
   </div>
 </div>
